@@ -13,4 +13,6 @@
   </div>
   
   - [x] project theme : Agencia de viajes 
+  - [x] repository of github : [Link of github Repo](https://github.com/Mani8217/grupo3_angular/)
+  - [x] trello : [Click here to see angular project trello](https://trello.com/b/Y4TUzjyc/angular-project-group) 
   
