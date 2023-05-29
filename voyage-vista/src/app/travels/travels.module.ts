@@ -7,7 +7,7 @@ import {MatIconModule} from '@angular/material/icon';
 import { PlayaComponent } from './playa/playa.component';
 import { CapitalComponent } from './capital/capital.component';
 import { MontanaComponent } from './montana/montana.component';
-
+import { ChildSearchComponent } from './children/child-search/child-search.component';
 
 @NgModule({
   declarations: [
@@ -16,13 +16,17 @@ import { MontanaComponent } from './montana/montana.component';
     ViajeroComponent,
     PlayaComponent,
     CapitalComponent,
-    MontanaComponent
+    MontanaComponent,
+    ChildSearchComponent,
 
 
   ],
   imports: [
     CommonModule,
     MatIconModule
+  ],
+  exports:[
+    ChildSearchComponent
   ]
 })
 export class TravelsModule { }
