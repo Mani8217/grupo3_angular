@@ -19,24 +19,46 @@ nav{
   display: flex;
   justify-content: space-around;
   align-items: baseline;
-  color: white;
+  color: black;
   width: 100%;
-  background-color: #3E50B5;
-  padding: 20px;
+  background-color: #f1f1f1;
+  padding: 5px;
+  padding-bottom:0;
 
 }
 
 nav a{
   text-decoration: none;
-  font-size: 3vh;
+  font-size: 2.5vh;
   border-bottom: 1px solid bottom;
-  color:white;
+  color:rgb(93, 91, 91);
   font-weight: bold;
+  border-bottom:1px solid #f1f1f1;
+  padding:10px
 
+}
+nav a:hover{
+  border-bottom: 2px solid lightgray;
+
+}
+nav a:active{
+  border-bottom: 2px solid black;
 
 }
 .main-content{
-  margin-top: 200px;
+  margin-top: 150px;
+  margin-bottom:100px
+}
+footer {
+  position:fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  border-top: 1px solid #aea9a9;
+
 }
 
 

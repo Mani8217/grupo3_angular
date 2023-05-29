@@ -6,19 +6,20 @@ input {
   height:40px;
   width:50%;
   padding-left: 10px;
+  border: none;
 }
 form{
-  background-color: #3F50B5;
+  background-color: #f1f1f1;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
 }
 button {
-  background-color: #3F50B5;
-  color: white;
+  background-color: #f1f1f1;
+  color: rgb(93, 91, 91);
   font-size: 3vh;
   padding: 8px 12px;
   border-radius: 30px;
   text-align: center;
 
-  border:1px solid #3F50B5;
+  border:1px solid #f1f1f1;
 }
