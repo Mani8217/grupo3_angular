@@ -18,6 +18,7 @@ import { ChildSearchComponent } from './children/child-search/child-search.compo
     CapitalComponent,
     MontanaComponent,
     ChildSearchComponent,
+   
 
 
   ],
@@ -26,7 +27,8 @@ import { ChildSearchComponent } from './children/child-search/child-search.compo
     MatIconModule
   ],
   exports:[
-    ChildSearchComponent
+    ChildSearchComponent,
+    
   ]
 })
 export class TravelsModule { }
