@@ -8,6 +8,7 @@ import { PlayaComponent } from './playa/playa.component';
 import { CapitalComponent } from './capital/capital.component';
 import { MontanaComponent } from './montana/montana.component';
 import { ChildSearchComponent } from './children/child-search/child-search.component';
+import { CdomoComponent } from './cdomo/cdomo.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { ChildSearchComponent } from './children/child-search/child-search.compo
     CapitalComponent,
     MontanaComponent,
     ChildSearchComponent,
+    CdomoComponent,
    
 
 

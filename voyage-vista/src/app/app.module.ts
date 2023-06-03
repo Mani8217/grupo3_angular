@@ -9,11 +9,15 @@ import { MatIconModule } from '@angular/material/icon';
 import {MatToolbarModule} from '@angular/material/toolbar'
 import {MatButtonModule} from '@angular/material/button';
 
+// import { OpinionComponent } from './opinion/opinion.component';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    
+    // OpinionComponent,
     
   
  
@@ -25,7 +29,9 @@ import {MatButtonModule} from '@angular/material/button';
     TravelsModule,
     MatIconModule,
     MatToolbarModule,
-    MatButtonModule
+    MatButtonModule,
+    
+    // OpinionComponent
 
 
   ],

@@ -6,12 +6,14 @@ import { PropietorioComponent } from './travels/propietorio/propietorio.componen
 import { PlayaComponent } from './travels/playa/playa.component';
 import { MontanaComponent } from './travels/montana/montana.component';
 import { CapitalComponent } from './travels/capital/capital.component';
+import { CdomoComponent } from './travels/cdomo/cdomo.component';
 
 const routes: Routes = [
   {path:'vivienda' , component: ViviendaComponent},
   {path:'viajero', component:ViajeroComponent},
   {path:'playa' , component:PlayaComponent},
   {path:'montana' , component:MontanaComponent},
+  {path:'cdomo', component:CdomoComponent},
   {path:'capital', component:CapitalComponent},
   {path:'propietorio', component:PropietorioComponent},
   {path:'', redirectTo:'/vivienda', pathMatch:'full'},
